@@ -2,9 +2,8 @@ version: '3.8'
 
 services:
   kali:
-    image: kalilinux/kali-rolling
+    image: kali_con_john
     container_name: kali_john
     volumes:
       - ./data:/data
-    command: tail -f /dev/null
     tty: true
