@@ -3,7 +3,7 @@ version: '3.8'
 services:
   kali:
     image: kalilinux/kali-rolling
-    container_name: kali_john
+    container_name: kali_httrack
     volumes:
       - ./data:/data
     command: tail -f /dev/null
